@@ -1,9 +1,9 @@
 <template>
   <div id="nav">
-  <!--Talvez as rotas estejam erradas-->
-    <router-link :class="{ active: $route.name === 'Home' }" to="/" 
-      >Início</router-link
-    >
+    <!--Talvez as rotas estejam erradas-->
+    <router-link :class="{ active: $route.name === 'Home' }" to="/">
+      Início
+    </router-link>
     |
     <router-link :class="{ active: $route.name === 'Cart' }" to="/Cart"
       >Carrinho</router-link
