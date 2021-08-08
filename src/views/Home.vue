@@ -1,19 +1,17 @@
 <template>
-  <div class="home">
-    
-  </div>
+  <div class="home"></div>
 </template>
 
 <script>
-import itens from '../data/itens.js'
+import itens from "../data/itens.js";
 
 export default {
-  name: 'Home',
-  components: {
- 
-  },
+  name: "Home",
+  components: {},
   data() {
-    return
-  }
-}
+    return {
+      itens: itens,
+    };
+  },
+};
 </script>

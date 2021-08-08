@@ -1,5 +1,5 @@
 <template>
-    <div>
+  <div>
     Carrinho
-    </div>
+  </div>
 </template>
