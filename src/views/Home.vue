@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="Home">
   <div class="Products-cards-container">
   <!--//Itens talvez esteja errado-->
    <ProductsSummaryCard 
@@ -13,12 +13,12 @@
 
 <script>
 //Itens talvez esteja errado
-import items from "../data/itens.js";
-import ProductsSummaryCard from '../components/products/ProductsSummaryCard.vue'
+import items from "../data/items.js";
+import ProductsSummaryCard from '../components/products/ProductsSummaryCard.vue';
 
 
 export default {
-  name: "home",
+  name: 'Home',
   components: {
     ProductsSummaryCard
 
