@@ -48,7 +48,7 @@ a {
   font-size: 1.25rem;
 
   &.active {
-    color: #232323;
+    color: white;
   }
 }
 
