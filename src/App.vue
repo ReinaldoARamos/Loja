@@ -1,7 +1,7 @@
 <template>
   <div id="nav">
     <router-link :class="{active: $route.name === 'Home'}" to="/" >Início</router-link> |
-    <router-link :class="{active: $route.name === 'Cart'}" to="/cart" >Sobre</router-link> |
+    <router-link :class="{active: $route.name === 'Cart'}" to="/cart" >Carrinho</router-link> |
   </div>
   <router-view/>
 </template>

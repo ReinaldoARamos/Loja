@@ -5,6 +5,7 @@ import Cart from '../views/Cart.vue'
 const routes = [
   {
     path: '/', name: 'Home', component: Home},
+    {path: '/cart', name: 'Cart', component: Cart}
   
 ]
 
