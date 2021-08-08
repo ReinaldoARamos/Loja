@@ -4,7 +4,8 @@
 
     <h5 class="price">Preço:${{ product.Price.toFixed(2) }}</h5>
 
-    <p class="Genre">Genêro: {{description}}</p>
+    <p class="Genre">Genêro: {{product.Genre}}</p>
+    <p class="description">Descrição: {{description}} </p>
     <p class="Rating">Classificação indicativa {{product.Rating}}</p>
   </div>
 </template>
