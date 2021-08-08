@@ -4,7 +4,6 @@ const item = [
     name: "Spider Man 3",
     Price: 10.0,
     Genre: "Action",
-
     Rating: "PG-13",
   },
   {
