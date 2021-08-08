@@ -1,6 +1,9 @@
 <template>
   <div class="home">
-    <ProductDrawer :product="product" />
+    <ProductDrawer 
+    :product="product"
+    :active="active.product_drawer"
+     />
     <!--Possivel erro -->
     <div class="Products-cards-container">
       <!--//Itens talvez esteja errado-->
@@ -32,6 +35,9 @@ export default {
       //Itens talvez esteja errado
       items: items,
       product: null,
+      active:{
+        product_drawer :false
+      }
     };
   },
   methods: {
