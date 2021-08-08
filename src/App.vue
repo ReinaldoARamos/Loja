@@ -1,7 +1,7 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link :class="{active: $route.name === 'Home'}" to="/" >Início</router-link> |
+    <router-link :class="{active: $route.name === 'Cart'}" to="/cart" >Sobre</router-link> |
   </div>
   <router-view/>
 </template>
@@ -33,6 +33,7 @@ height: 30px;
 background-color: rgb(100, 112, 128);
 line-height: 30px;
 }
+  
 
 a{
 font-weight: bold;
@@ -49,4 +50,6 @@ font-size: 1.25rem;
  .text{
  text-align: center;
  }
-</style>
+ 
+
+ </style>
