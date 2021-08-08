@@ -1,6 +1,12 @@
 <template>
   <div class="home">
-  <div class="product-card-container"></div>
+  <div class="product-card-container">
+   <ProductsSummaryCard 
+   v-for="product in itens" ]
+   :key="product.id" 
+   :product="product"
+   />
+  </div>
   </div>
 </template>
 
@@ -8,9 +14,13 @@
 import itens from "../data/itens.js";
 import ProductsSummaryCard from '../components/products/ProductsSummaryCard.vue'
 
+
 export default {
   name: "Home",
-  components: {},
+  components: {
+    ProductsSummaryCard
+
+  },
   data() {
     return {
       itens: itens,
