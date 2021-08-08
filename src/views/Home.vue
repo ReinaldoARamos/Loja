@@ -1,9 +1,9 @@
 <template>
   <div class="home">
-  <div class="product-card-container">
+  <div class="Products-cards-container">
   <!--//Itens talvez esteja errado-->
    <ProductsSummaryCard 
-   v-for="product in item" ]
+   v-for="product in items" ]
    :key="product.id" 
    :product="product"
    />
@@ -13,12 +13,12 @@
 
 <script>
 //Itens talvez esteja errado
-import item from "../data/itens.js";
+import items from "../data/itens.js";
 import ProductsSummaryCard from '../components/products/ProductsSummaryCard.vue'
 
 
 export default {
-  name: "Home",
+  name: "home",
   components: {
     ProductsSummaryCard
 
@@ -26,14 +26,14 @@ export default {
   data() {
     return {
       //Itens talvez esteja errado
-      item: item,
+      items: items,
     }
   }
 }
 </script>
 
 <style lang="scss">
-.products-cards-container{
+.Products-cards-container{
 display: flex;
 flex-wrap: wrap;
 justify-content: center;

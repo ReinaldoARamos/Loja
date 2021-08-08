@@ -7,6 +7,7 @@
     <p class="Genre">Genêro: {{product.Genre}}</p>
     <p class="description">Descrição: {{description}} </p>
     <p class="Rating">Classificação indicativa {{product.Rating}}</p>
+    <button class="view-product-button"></button>
   </div>
 </template>
 

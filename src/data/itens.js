@@ -1,4 +1,4 @@
-const item = [
+const items = [
   {
     id: 1,
     name: "Spider Man 3",
@@ -41,4 +41,4 @@ const item = [
   },
 ];
 
-export default item;
+export default items;

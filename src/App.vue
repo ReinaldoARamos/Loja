@@ -1,10 +1,11 @@
 <template>
   <div id="nav">
-    <router-link :class="{ active: $route.name === 'Home' }" to="/"
+  <!--Talvez as rotas estejam erradas-->
+    <router-link :class="{ active: $route.name === 'Home' }" to="/" 
       >Início</router-link
     >
     |
-    <router-link :class="{ active: $route.name === 'Cart' }" to="/cart"
+    <router-link :class="{ active: $route.name === 'Cart' }" to="/Cart"
       >Carrinho</router-link
     >
     |
