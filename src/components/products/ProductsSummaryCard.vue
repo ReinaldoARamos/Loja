@@ -27,9 +27,11 @@ export default {
   border-radius: 5px;
   background-color: white;
   box-shadow: 0 0 5px grey;
+   text-align: center;
 
   h4.price {
     color: grey;
+   
   }
 
   p.genre {
