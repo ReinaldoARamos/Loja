@@ -1,9 +1,6 @@
 <template>
   <div class="home">
-    <ProductDrawer 
-    :product="product"
-    :active="active.product_drawer"
-     />
+    <ProductDrawer :product="product" :active="active.product_drawer" />
     <!--Possivel erro -->
     <div class="Products-cards-container">
       <!--//Itens talvez esteja errado-->
@@ -35,14 +32,15 @@ export default {
       //Itens talvez esteja errado
       items: items,
       product: null,
-      active:{
-        product_drawer :false //true pra testes
-      }
+      active: {
+        product_drawer: false, //true pra testes
+      },
     };
   },
   methods: {
     viewProduct(product) {
       this.product = product;
+      this.active.product_drawer = true ;
       console.log(this.product);
     },
   },
