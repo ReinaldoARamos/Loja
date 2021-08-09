@@ -85,6 +85,18 @@ export default {
   }
 }
 
+.text-center{
+     padding: 20px;
+    line-height: 1.5rem;
+    text-align: center;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.cart-total{
+     padding: 20px;
+    line-height: 1.5rem;
+    text-align: center;
+}
 .product-details {
   display: flex;
   justify-content: center;
@@ -93,16 +105,30 @@ export default {
   p.Genre {
     padding: 20px;
     line-height: 1.5rem;
+    text-align: center;
+  }
+  p.Rating{
+       padding: 20px;
+    line-height: 1.5rem;
+    text-align: center;
+
+ 
   }
 
   .button-container {
     button {
+        
       width: 150px;
       border: none;
       padding: 10px;
       border-radius: 5px;
       margin: 0 5px 50px 5px;
+     
       cursor: pointer;
+
+       &:hover {
+    background-color: lightslategrey;
+  }
     }
   }
 }
