@@ -13,11 +13,11 @@
   <router-view />
 </template>
 <script>
-export default{
-  mounted(){
-    this.$store.commit('updateCartFromStorage')
-  }
-}
+export default {
+  mounted() {
+    this.$store.commit("updateCartFromStorage");
+  },
+};
 </script>
 
 <style lang="scss">
