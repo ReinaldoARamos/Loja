@@ -74,19 +74,49 @@ export default {
   }
 }
 
-.drawer-close{
-    font-size: 1.5rem;
-    padding: 5px;
-    border-radius: 5px;
-    right: 10px;
-    border: 2px color grey;
-    color: gray;
-    width: 15px;
-    float: right;
-    cursor: pointer;
+.drawer-close {
+  font-size: 1.5rem;
+  padding: 5px;
+  border-radius: 5px;
+  right: 10px;
+  border: 2px color grey;
+  color: gray;
+  width: 15px;
+  float: right;
+  cursor: pointer;
 
-    &:hover {
-        background-color: lightslategrey;
+  &:hover {
+    background-color: lightslategrey;
+  }
+}
+
+.product-details {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  p.Genre {
+    padding: 20px;
+    line-height: 1.5rem;
+  }
+
+  .button-container {
+    button {
+      width: 150px;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      margin: 0 5px 50px 5px;
+      cursor: pointer;
     }
+  }
+}
+
+@media (min-width: 500px) {
+.drawer{
+width: 500px;
+
+}
+
 }
 </style>
