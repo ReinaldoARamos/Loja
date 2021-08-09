@@ -1,6 +1,10 @@
 <template>
   <div class="home">
-    <ProductDrawer :product="product" :active="active.product_drawer" />
+    <ProductDrawer
+      :product="product"
+      :active="active.product_drawer"
+      v-on:close-product-drawer="CloseProductDrawer()" 
+    />
     <!--Possivel erro -->
     <div class="Products-cards-container">
       <!--//Itens talvez esteja errado-->
@@ -40,10 +44,14 @@ export default {
   methods: {
     viewProduct(product) {
       this.product = product;
-      this.active.product_drawer = true ;
+      this.active.product_drawer = true;
       console.log(this.product);
     },
+    CloseProductDrawer(){
+      this.active.product_drawer = false;
+    }
   },
+  
 };
 </script>
 

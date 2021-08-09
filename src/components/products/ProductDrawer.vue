@@ -119,11 +119,11 @@ export default {
     button {
         
       width: 150px;
-      border: none;
+      border: solid;
       padding: 10px;
       border-radius: 5px;
       margin: 0 5px 50px 5px;
-     
+     float: right;
       cursor: pointer;
 
        &:hover {
