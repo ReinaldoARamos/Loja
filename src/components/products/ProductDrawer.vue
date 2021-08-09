@@ -73,15 +73,16 @@ export default {
   font-size: 1.5rem;
   padding: 5px;
   border-radius: 5px;
-  right: 10px;
+  right: 15px;
   border: 2px color grey;
-  color: gray;
+  color: black;
   width: 15px;
   float: right;
   cursor: pointer;
+  
 
   &:hover {
-    background-color: lightslategrey;
+    background-color: rgba(255, 0, 0, 0.473);
   }
 }
 
