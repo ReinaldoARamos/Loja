@@ -36,7 +36,7 @@ export default {
       items: items,
       product: null,
       active:{
-        product_drawer :false
+        product_drawer :false //true pra testes
       }
     };
   },
