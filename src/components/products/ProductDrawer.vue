@@ -20,8 +20,8 @@
       </div>
 
       <div class="button-container">
-        <button class="remove" @click="removeFromCart()">Remover</button>
-        <button class="add" @click="addToCart()">Adicionar</button>
+        <button class="remove" @click="removeFromCart()">Remover -</button>
+        <button class="add" @click="addToCart()">Adicionar +</button>
       </div>
     </div>
   </div>
