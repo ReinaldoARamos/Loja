@@ -26,10 +26,15 @@
 <script>
 export default {
   props: ['product', 'active'],
+  methods:{
+    addToCart(){
+      this.$store.commit('addToCart', this.product);
+    }
+  },
 
   computed: {
     product_total() {
-      return 56.0;
+      return this.$store.getters.ProductQuantity(this.product);
     },
   },
 };

@@ -31,6 +31,7 @@ export default createStore({
       else{
         state.cart.push({...product, quantity: 1})
       }
+      updateLocalStorage(state.cart);
     }
   },
   actions: {},
