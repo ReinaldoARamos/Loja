@@ -4,7 +4,7 @@
     <h1>Carrinho</h1>
     
 <CartItemsCard
-v-for="product in items" 
+v-for="product in products" 
 :key="product.id"
 :product="product"
 />
@@ -20,7 +20,7 @@ export default {
     CartItemsCard
   },
   computed: {
-    product() {
+    products() {
       return this.$store.getters.cartItems;
     },
   },

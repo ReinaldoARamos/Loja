@@ -10,7 +10,7 @@
 
 <script>
 export default {
-    props: ['products'],
+    props: ['product'],
     computed: {
         item_cost(){
             return this.product.price * this.product.quantity
