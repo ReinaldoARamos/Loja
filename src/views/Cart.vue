@@ -16,7 +16,7 @@ export default {
     CartItemsCard
   },
   computed: {
-    items() {
+    products() {
       return this.$store.getters.cartItems;
     },
   },
