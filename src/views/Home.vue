@@ -48,7 +48,7 @@ export default {
       console.log(this.product);
     },
     CloseProductDrawer(){
-      this.active.product_drawer = false;
+      this.active.product_drawer = false; //Desse jeito ela fecha
     }
   },
   
