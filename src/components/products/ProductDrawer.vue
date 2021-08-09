@@ -6,7 +6,7 @@
   />
 
   <div class="drawer" :show="{ show: active }">
-    <div class="drawer-close" @click="$emit('close-product-drawer')">
+    <div class="drawer-close" @click="$emit('close-product-drawer')"/>
       X
     </div>
 
