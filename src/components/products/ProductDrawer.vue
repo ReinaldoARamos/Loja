@@ -6,9 +6,9 @@
 
   <div v-if="product" class="product-details">
     <h3 class="text-center">{{ product.name }}</h3>
-    <h4 class="text-center">{{ product.Price.toFixed(2) }}</h4>
-    <p class="Genre">{{ product.Genre }}</p>
-    <p class="Rating">{{ product.Rating }}</p>
+    <h4 class="text-center">Preço:R${{ product.Price.toFixed(2) }}</h4>
+    <p class="Genre">Gênero:{{ product.Genre }}</p>
+    <p class="Rating">Classificação indicativa:{{ product.Rating }}</p>
 
     <div class="cart-total" v-if="product_total">
       <h3>No carrinho</h3>

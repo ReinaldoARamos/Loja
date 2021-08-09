@@ -2,7 +2,7 @@
   <div class="card">
     <h3>{{ product.name }}</h3>
 
-    <h4 class="price">Preço:${{ product.Price.toFixed(2) }}</h4>
+    <h4 class="price">Preço:R${{ product.Price.toFixed(2) }}</h4>
 
     <p class="Genre">Genêro: {{ product.Genre }}</p>
 
