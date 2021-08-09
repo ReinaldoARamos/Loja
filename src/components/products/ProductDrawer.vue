@@ -17,7 +17,7 @@
 
     <div class="button-container">
       <button class="remove">Remover</button>
-      <button class="add">Adicionar</button>
+      <button class="add" @click="addToCart()">Adicionar</button>
     </div>
   </div>
   </div>
