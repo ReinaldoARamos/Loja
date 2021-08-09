@@ -1,12 +1,12 @@
 <template>
   <div id="nav">
     <!--Talvez as rotas estejam erradas-->
-    <router-link :class="{ active: $route.name === 'Home' }" to="/">
-      Início
+    <router-link :class="{ active: $route.name === 'Home' }" to="/" class="Inicio">
+      🏠
     </router-link>
     |
     <router-link :class="{ active: $route.name === 'Cart' }" to="/Cart"
-      >Carrinho</router-link
+      class="Carrinho">🛒</router-link
     >
     |
   </div>
@@ -63,4 +63,18 @@ a {
 .text {
   text-align: center;
 }
+.Inicio{
+
+&:hover {
+    background-color: blue  
+  }
+
+  
+}
+
+.Carrinho {
+    &:hover {
+    background-color: blue;
+  }
+  }
 </style>

@@ -1,7 +1,7 @@
 <template>
 <div>
   <div class="Textos">
-    <h1>Carrinho</h1>
+    <h1>Carrinho 🛒</h1>
     
 <CartItemsCard
 v-for="product in products" 
@@ -10,6 +10,7 @@ v-for="product in products"
 />
 
   </div>
+  
 </div>
 </template>
 
