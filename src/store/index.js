@@ -22,30 +22,34 @@ export default createStore({
     },
   },
   mutations: {
-    addToCart(state, product){
-      let item  = state.cart.find(i => i.id === product.id)
+    addToCart(state, product) {
+      let item = state.cart.find((i) => i.id === product.id);
 
-      if (item){
+      if (item) {
         item.quantity++;
-      }
-      else{
-        state.cart.push({...product, quantity: 1})
+      } else {
+        state.cart.push({ ...product, quantity: 1 });
       }
       updateLocalStorage(state.cart);
     },
-    removeFromCart(state, product){
-      let item = state.cart.find(i => i.id === product.id)
+    removeFromCart(state, product) {
+      let item = state.cart.find((i) => i.id === product.id);
 
-      if(item){
-        if(item.quantity > 1){
-          item.quantity--
-        }else{
-          state.cart = state.cart.filter(i => i.id !== product.id)
+      if (item) {
+        if (item.quantity > 1) {
+          item.quantity--;
+        } else {
+          state.cart = state.cart.filter((i) => i.id !== product.id);
         }
       }
-      updateLocalStorage(state.cart)
-    }
-
+      updateLocalStorage(state.cart);
+    },
+    updateCartFromStorage(state) {
+      const cart = localStorage.getItem("cart");
+      if (cart) {
+        state.cart = JSON.parse(cart);
+      }
+    },
   },
   actions: {},
   modules: {},
