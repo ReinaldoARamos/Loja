@@ -5,7 +5,7 @@ const items = [
     Price: 10.0,
     Genre: "Ação",
     Rating: "PG-13",
-    imgURl: 'https://www.mobygames.com/images/covers/l/577901-spider-man-3-playstation-2-front-cover.jpg'
+    imgURl: 'https://images-na.ssl-images-amazon.com/images/I/71qFOh%2B2rOS._AC_SX355_.jpg'
    
   },
   {
@@ -13,23 +13,24 @@ const items = [
     name: "El Camino",
     Price: 20.0,
     Genre: "Drama",
-    Rating: "PG-18"
- 
+    Rating: "PG-18",
+    imgURl: 'https://upload.wikimedia.org/wikipedia/pt/4/48/El_Camino_p%C3%B4ster.png'
   },
   {
     id: 3,
     name: "Sonic The Movie",
     Price: 20.0,
     Genre: "Aventura",
-    Rating: "PG-10"
-    
+    Rating: "PG-10",
+    imgURl: ''
   },
   {
     id: 4,
     name: "Zootopia",
     Price: 30.0,
     Genre: "Aventura",
-    Rating: "PG-10"
+    Rating: "PG-10",
+    imgURl: ''
   },
   {
     id: 5,
@@ -37,6 +38,7 @@ const items = [
     Price: 10.0,
     Genre: "Ação",
     Rating: "PG-13",
+    imgURl: ''
    
   },
   {
@@ -45,6 +47,7 @@ const items = [
     Price: 5.00,
     Genre: "Terror",
     Rating: "PG-16",
+    imgURl: ''
   },
   {
     id: 7,
@@ -52,6 +55,7 @@ const items = [
     Price: 10.0,
     Genre: "Ação",
     Rating: "PG-18",
+    imgURl: ''
   },
   {
     id: 8,
@@ -59,6 +63,7 @@ const items = [
     Price: 20.0,
     Genre: "Aventura",
     Rating: "PG-10",
+    imgURl: ''
   },
   {
     id: 9,
@@ -66,6 +71,7 @@ const items = [
     Price: 50.0,
     Genre: "Ação, Terror",
     Rating: "PG-18",
+    imgURl: ''
   },
   {
     id: 10,
@@ -73,6 +79,7 @@ const items = [
     Price: 50.0,
     Genre: "Ação",
     Rating: "PG-14",
+    imgURl: ''
   }
    
 ];

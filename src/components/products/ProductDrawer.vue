@@ -13,7 +13,7 @@
       <h4 class="text-center">Preço: R$ {{ product.Price.toFixed(2) }}</h4>
       <p class="Genre">Gênero:{{ product.Genre }}</p>
       <p class="Rating">Classificação indicativa:{{ product.Rating }}</p>
-      <p><img :src="product.imgURl" width="320" height="205" /></p>
+      <p><img :src="product.imgURl" class="Image" /></p>
 
       <div class="cart-total" v-if="product_total">
         <h3>No carrinho</h3>
@@ -49,6 +49,15 @@ export default {
 </script>
 
 <style lang="scss">
+.Image{
+
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1em;
+    width: 250px;
+  height: 300px
+}
 .drawer-background {
   width: 100%;
   height: 100vh;
