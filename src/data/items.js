@@ -62,7 +62,7 @@ const items = [
     name: "Inception",
     Price: 20.0,
     Genre: "Aventura",
-    Rating: "PG-10",
+    Rating: "PG-16",
     imgURl: 'https://upload.wikimedia.org/wikipedia/pt/8/84/AOrigemPoster.jpg'
   },
   {
