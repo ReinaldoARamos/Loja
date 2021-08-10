@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+ 
     <ProductDrawer
       :product="product"
       :active="active.product_drawer"

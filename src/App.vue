@@ -1,5 +1,8 @@
 <template>
-  <div id="nav">
+
+  <div id="nav"> 
+ 
+  
     <!--Talvez as rotas estejam erradas-->
     <router-link :class="{ active: $route.name === 'Home' }" to="/" class="Inicio">
       🏠
@@ -21,6 +24,8 @@ export default {
 </script>
 
 <style lang="scss">
+
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -28,6 +33,7 @@ export default {
   text-align: right;
   color: #2c3e50;
 }
+
 
 html,
 body {
@@ -46,6 +52,7 @@ body {
   height: 30px;
   background-color: rgb(100, 112, 128);
   line-height: 30px;
+  
 }
 
 a {
