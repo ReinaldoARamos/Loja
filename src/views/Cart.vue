@@ -10,15 +10,16 @@ v-for="product in products"
 />
 
   </div>
-  
+  <CardSummaryPaymentCard />
 </div>
 </template>
 
 <script>
 import CartItemsCard from '../components/cart/CartItemCard.vue'
+import CardSummaryPaymentCard from '../components/cart/CardSummaryPaymentCard.vue'
 export default {
   components: {
-    CartItemsCard
+    CartItemsCard, CardSummaryPaymentCard
   },
   computed: {
     products() {
