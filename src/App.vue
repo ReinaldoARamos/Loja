@@ -62,11 +62,15 @@ a {
 
 .text {
   text-align: center;
+    padding: 1px;
+        border-radius: 5px;
+        height: 15px;
 }
 .Inicio{
 
 &:hover {
-    background-color: blue  
+    background-color: blue;
+    
   }
 
   
@@ -75,6 +79,7 @@ a {
 .Carrinho {
     &:hover {
     background-color: blue;
+   
   }
   }
 </style>
