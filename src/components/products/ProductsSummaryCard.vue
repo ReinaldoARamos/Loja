@@ -8,6 +8,8 @@
 
     <p class="Rating">Classificação indicativa {{ product.Rating }}</p>
 
+    
+
     <button class="view-product-button" @click="$emit('view-product', product)">
       Visualizar
     </button>

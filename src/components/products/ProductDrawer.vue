@@ -13,6 +13,7 @@
       <h4 class="text-center">Preço: R$ {{ product.Price.toFixed(2) }}</h4>
       <p class="Genre">Gênero:{{ product.Genre }}</p>
       <p class="Rating">Classificação indicativa:{{ product.Rating }}</p>
+      <p><img :src="product.imgURl" width="320" height="205" /></p>
 
       <div class="cart-total" v-if="product_total">
         <h3>No carrinho</h3>

@@ -4,7 +4,8 @@ const items = [
     name: "Spider Man 3",
     Price: 10.0,
     Genre: "Ação",
-    Rating: "PG-13"
+    Rating: "PG-13",
+    imgURl: 'https://www.mobygames.com/images/covers/l/577901-spider-man-3-playstation-2-front-cover.jpg'
    
   },
   {
