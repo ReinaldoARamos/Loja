@@ -21,10 +21,8 @@
       </div>
 
       <div class="button-container">
-      
         <button class="remove" @click="removeFromCart()">Remover -</button>
         <button class="add" @click="addToCart()">Adicionar +</button>
-        
       </div>
     </div>
   </div>
@@ -51,15 +49,12 @@ export default {
 </script>
 
 <style lang="scss">
-
-
-.Image{
-
+.Image {
   display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 250px;
-  height: 300px
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 300px;
 }
 .drawer-background {
   width: 100%;
@@ -141,12 +136,11 @@ export default {
   .button-container {
     button {
       width: 150px;
-      border: solid;
+      border: none;
       padding: 10px;
       border-radius: 5px;
-      margin: 0 5px 50px 5px;
-      float: right;
-      
+      margin: 0 10px 50px 65px;
+
       cursor: pointer;
 
       &:hover {
