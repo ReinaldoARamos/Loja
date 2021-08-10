@@ -10,7 +10,8 @@ v-for="product in products"
 />
 
   </div>
-  <CardSummaryPaymentCard />
+  <CardSummaryPaymentCard 
+  />
 </div>
 </template>
 
