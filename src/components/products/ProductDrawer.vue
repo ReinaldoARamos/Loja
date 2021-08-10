@@ -21,8 +21,10 @@
       </div>
 
       <div class="button-container">
+      
         <button class="remove" @click="removeFromCart()">Remover -</button>
         <button class="add" @click="addToCart()">Adicionar +</button>
+        
       </div>
     </div>
   </div>
@@ -49,6 +51,8 @@ export default {
 </script>
 
 <style lang="scss">
+
+
 .Image{
 
   display: block;
@@ -142,6 +146,7 @@ export default {
       border-radius: 5px;
       margin: 0 5px 50px 5px;
       float: right;
+      
       cursor: pointer;
 
       &:hover {

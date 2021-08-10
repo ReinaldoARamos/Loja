@@ -1,6 +1,7 @@
 <template>
 
-  <div id="nav"> 
+  <div id="nav" > 
+  <img src="../public/Lojinhas.jpg"  class="Imagem"/> 
  
   
     <!--Talvez as rotas estejam erradas-->
@@ -24,7 +25,13 @@ export default {
 </script>
 
 <style lang="scss">
-
+.Imagem{
+  width: 50px;
+  height: 40px;
+  position: absolute;
+  left: 10px ;
+  
+}
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -53,6 +60,8 @@ body {
   background-color: rgb(100, 112, 128);
   line-height: 30px;
   
+  
+  
 }
 
 a {
@@ -74,7 +83,7 @@ a {
         height: 15px;
 }
 .Inicio{
-
+text-align: right;
 &:hover {
     background-color: blue;
     
@@ -84,6 +93,7 @@ a {
 }
 
 .Carrinho {
+  text-align: right;
     &:hover {
     background-color: blue;
    
