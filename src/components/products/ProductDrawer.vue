@@ -51,10 +51,9 @@ export default {
 <style lang="scss">
 .Image{
 
-display: block;
+  display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 1em;
     width: 250px;
   height: 300px
 }
